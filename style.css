@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*      Containers         */
+body{
+    font-family: cursive;
+}
+
+.topBar{
+    padding-top: 5px;
+    padding-right: 800px;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: solid black;
+    height: 70px;
+    margin: 0 auto;
+}
+.feedBox{
+    font-weight: bold;
+    font-size: 2.3em;
+    padding-top: 20px;
+    text-align: center;
+    height: 85px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.mainContain{
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+}
+.subContain{
+    display: flex;
+    
+}
+
+.avatar{
+    border: solid black;
+    height: 400px;
+    width: 250px;
+}
+.likeBox{
+    border-style: solid;
+    border-color: black;
+    height: 250px;
+    width: 700px;
+    margin-bottom: 20px;
+}
+ul{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+}
+/*  movement CSS */
+.likeBoxMargin{
+    margin-left: 30px;
+    
+}
+.belowList {
+    padding-top: 60px;
+    padding-left: 30px;
+    font-size: 2.2em;
+}
+
+
+/* Style CSS */
+
+
+.userCircle{
+
+    width: 130px;
+    padding-top: 50px;
+    padding-left: 55px;
+}
+.listStyle{
+    padding-left: 30px;
+    font-size: 2em;
+    padding-top: 40px;
+}
+li button{
+    margin-top: 40px;
+    background-color: orange;
+    margin-right: 70px;
+    width: 80px;
+    height: 45px;
+    box-shadow: 1px 1px 1px 2px;
+}
+.likeStyle{
+    padding-left: 180px;
+    padding-top: 35px;
+    font-size: 1.5em;
+}
+.addFont{
+    padding-left: 25px;
+    padding-top: 50px;
+    font-size: 1.8em;
+}
+.jamesFont{
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 1.7em;
+
+}
